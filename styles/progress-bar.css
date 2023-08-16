@@ -1,314 +1,105 @@
 :root {
-    --cor-primaria: #F1F6F9;
     --cor-secundaria: #212A3E;
-    --cor-terciaria: #394867;
     --cor-quaternaria: #9BA4B5;
 }
 
-.progress__bar_logica {
+.progress__bar {
     height: 20px;
     border-radius: 10px;
     background-color: var(--cor-quaternaria);
     display: flex;
 }
 
-.progress__bar_logica::before {
+.progress__real::before {
     content: "";
-    width: 60%;
     background-color: var(--cor-secundaria);
     border-radius: 10px;
 }
 
-.progress__bar__html {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
+.logica::before {
+    width: 60%;
 }
 
-.progress__bar__html::before {
-    content: "";
+.html::before {
     width: 75%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__css {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__css::before {
-    content: "";
+.css::before {
     width: 65%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__bootstrap {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__bootstrap::before {
-    content: "";
+.bootstrap::before {
     width: 30%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__tailwind {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__tailwind::before {
-    content: "";
+.tailwind::before {
     width: 30%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__javascript {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__javascript::before {
-    content: "";
+.javascript::before {
     width: 45%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__nodejs {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__nodejs::before {
-    content: "";
+.nodejs::before {
     width: 20%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__react {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__react::before {
-    content: "";
+.react::before {
     width: 20%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__reactnative {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__reactnative::before {
-    content: "";
+.reactnative::before {
     width: 20%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__java {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__java::before {
-    content: "";
+.java::before {
     width: 40%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__mysql {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__mysql::before {
-    content: "";
+.mysql::before {
     width: 20%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__git {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__git::before {
-    content: "";
+.git::before {
     width: 50%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__github {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__github::before {
-    content: "";
+.github::before {
     width: 60%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }   
 
-.progress__bar__versionamento {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
+.versionamento::before {
+    width: 50%;  
 }
 
-.progress__bar__versionamento::before {
-    content: "";
-    width: 50%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;   
-}
-
-.progress__bar__comunicacao {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__comunicacao::before {
-    content: "";
+.comunicacao::before {
     width: 80%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__criatividade {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__criatividade::before {
-    content: "";
+.criatividade::before {
     width: 70%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__organizacao {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__organizacao::before {
-    content: "";
+.organizacao::before {
     width: 90%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__rapido {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__rapido::before {
-    content: "";
+.aprendizado::before {
     width: 85%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__lideranca {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__lideranca::before {
-    content: "";
+.lideranca::before {
     width: 65%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__equipe {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__equipe::before {
-    content: "";
+.equipe::before {
     width: 75%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__tempo {
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-}
-
-.progress__bar__tempo::before {
-    content: "";
+.tempo::before {
     width: 70%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
 }
 
-.progress__bar__adaptacao{
-    height: 20px;
-    border-radius: 10px;
-    background-color: var(--cor-quaternaria);
-    display: flex;
-  }
-
-  .progress__bar__adaptacao::before{
-    content: "";
+  .adaptacao::before{
     width: 90%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
   }
