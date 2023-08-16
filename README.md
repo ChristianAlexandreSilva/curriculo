@@ -1,6 +1,6 @@
 # Olá, Bem vindo a apresentação do meu currículo!
 
-![image](https://raw.githubusercontent.com/ChristianAlexandreSilva/curriculo/main/page.png)
+![image](https://raw.githubusercontent.com/ChristianAlexandreSilva/curriculo/main/assets/page.png)
 
 ## Ferramentas utilizadas:
 
