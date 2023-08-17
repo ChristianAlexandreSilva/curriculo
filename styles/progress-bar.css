@@ -103,3 +103,15 @@
   .adaptacao::before{
     width: 90%;
   }
+
+  @media (min-width:320px) and (max-width: 480px) {
+    .progress__bar {
+        height: 12px;
+    }
+  }
+
+  @media (min-width:481px) and (max-width: 768px) {
+    .progress__bar {
+        height: 15px;
+    }
+  }
