@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para Contato</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="index.html">Currículo</a>
+            <a class="cabecalho__menu__links" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__links" href="contact.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <h1 id="titulo">Entre em contato comigo pelo formulário abaixo!</h1>
+
+        <p id="subtitulo">Preencha suas informações:</p>
+
+        <form method="POST" autocomplete="off">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="assunto"><strong>Assunto</strong></label>
+                <input type="text" name="assunto" id="assunto" required>
+            </div>
+            <div class="campo">
+                <textarea name="mensagem" id="mensagem" cols="45" rows="10" placeholder="Escreva aqui sua mensagem..."
+                    required></textarea>
+            </div>
+
+
+            <br>
+            <button onclick="abrirWhatsapp()" class="botao" type="submit">Enviar mensagem</button>
+
+        </form>
+        <script src="whatsapp.js"></script>
+    </main>
+    <footer class="rodape__conteudo">
+        <p> ₢ Desenvolvido por Christian Silva</p>
+    </footer>
+
+</body>
+
+</html>
